@@ -45,11 +45,9 @@ By @N_B_1N
     ABOUT = """
 **عن هذا البوت** 
 
-مطور البوت [**ANES**](@N_B_1N)
+مطور البوت @N_B_1N
 
-قناه البوت [S8Y8S](@S8Y8S) 
-
-Inspired By : HMA2BOT
+قناه البوت @S8Y8S
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
