@@ -81,7 +81,7 @@ async def previous_target(sender):
                   title=text1,
                   input_message_content=InputTextMessageContent(
                       f"A whisper message to {mention}" + " " + text2),
-                  url="https://t.me/StarkBots",
+                  url="https://t.me/S8Y8S",
                   description=text2,
                   thumb_url="https://telegra.ph/file/a5d76c485067c810400eb.jpg",
                   reply_markup=InlineKeyboardMarkup(
@@ -151,7 +151,7 @@ async def answer(bot: Client, query):
                 results=[
                     InlineQueryResultArticle(
                         title=text1,
-                        input_message_content=InputTextMessageContent(f"الهمسه للحلو {target_user.mention}" + " " + text2),
+                        input_message_content=InputTextMessageContent(f" {target_user.mention}" + " " + text2),
                         url="https://t.me/S8Y8S",
                         description=text2,
                         thumb_url="https://telegra.ph/file/a5d76c485067c810400eb.jpg",
