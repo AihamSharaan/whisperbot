@@ -8,47 +8,46 @@ Hey {}.
 Welcome to {}
 
 I am the Master of Whisperers (like Varys in Game of Thrones).
+يمكنك استخدامني لإرسال رسائل تهمس إلى صديقك في مجموعات وقنوات (حتى لو لم أكن موجودًا).
+فقط هذا الصديق وأنت ستكون قادرًا على قراءة الرسالة على الرغم من وجود آخرين في نفس المجموعة.
 
-You can use me to send whispers to your friend in groups and channels (even if I'm not there).
-Only that friend and you will be able to read the message even though others are in same group. 
+لمعرفة كيفية استخدامي ، اضغط على "كيفية الاستخدام" أدناه.
 
-To see how to use me press 'How to Use' below.
-
-By @StarkBots
+By @S8Y8Y
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🔒 Send a Whisper 🔒", switch_inline_query="")],
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton("🔒 أرسل الهمس 🔒", switch_inline_query="")],
+        [InlineKeyboardButton(text="🏠 العودة للمنزل 🏠", callback_data="home")],
     ]
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("🔒 Send a Whisper 🔒", switch_inline_query="")
+            InlineKeyboardButton("🔒 ارسل الهمس 🔒", switch_inline_query="")
         ],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("كيف تستعمل ❔", callback_data="help"),
+            InlineKeyboardButton("🎪 عن 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("♥ المزيد من البوتات المذهلة ♥", url="https://t.me/S8Y8S")],
+        [InlineKeyboardButton("🎨 للابلاغ عن مشكله 🎨", url="https://t.me/N_B_1N")],
     ]
 
     # Help Message
     HELP = """
-Just type the message in below format in any chat.
+ما عليك سوى كتابة الرسالة بالتنسيق أدناه في أي دردشة.
 
 `@WhisperStarkBot your_message friend_username/id`
     """
 
     # About Message
     ABOUT = """
-**About This Bot** 
+**عن هذا البوت** 
 
-Bot created by @StarkBots
+Bot created by @S8Y8S
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/WhisperBot)
+Source Code : [Click Here](https://github.com/ANES0H/WhisperBot)
 
 Inspired By : nnbbot
 
@@ -56,5 +55,5 @@ Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Developer : @S8Y8S
     """
