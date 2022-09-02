@@ -45,9 +45,8 @@ By @N_B_1N
     ABOUT = """
 **عن هذا البوت** 
 
-مطور البوت @N_B_1N
+مطور البوت @ U_O_8
 
-قناه البوت @S8Y8S
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
